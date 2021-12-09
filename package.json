@@ -1,0 +1,39 @@
+{
+  "version": "3.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc --noEmit && vite build --target=es2015",
+    "serve": "vite preview",
+    "deploy": "yarn build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hudsonjr90/jogodamemoriavueapp"
+  },
+  "keywords": [
+    "memory-game",
+    "vue",
+    "component"
+  ],
+  "author": "Hudson Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hudsonjr90/jogodamemoriavueapp/issues"
+  },
+  "homepage": "https://github.com/Hudsonjr90/jogodamemoriavueapp#readme",
+  "engines": {
+    "node": ">=10.0"
+  },
+  "dependencies": {
+    "vue": "^3.1.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/vfile-message": "^2.0.0",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.3",
+    "vue-tsc": "^0.2.2"
+  }
+}
