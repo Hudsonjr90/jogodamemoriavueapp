@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "stylusSupremacy.insertBraces": true,
+  "stylusSupremacy.insertColons": true,
+  "stylusSupremacy.insertSemicolons": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
