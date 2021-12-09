@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/Hudsonjr90/jogodamemoriavueapp#readme",
   "engines": {
-    "node": "14.x"
+    "node": ">=16.13.0"
   },
   "dependencies": {
+    "stores": "^1.0.0",
     "vue": "^3.1.5",
     "vuex": "^4.0.2"
   },
