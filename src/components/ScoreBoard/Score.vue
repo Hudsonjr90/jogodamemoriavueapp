@@ -35,14 +35,19 @@ export default defineComponent({
 
 span {
   font-size: 19px;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: "baloo 2", sans-serif;
   display: block;
   width: 100%;
   text-align: center;
+  margin-top: 10px;
+  color: #fff;
 }
 
 h2 {
   color: #fff;
+  font-weight: 700;
+  font-family: "baloo 2", sans-serif;
 }
 @media screen and (max-width: 450px) {
   .score {
@@ -50,6 +55,7 @@ h2 {
   }
   span {
     font-size: 17px;
+
   }
 }
 @media screen and (max-width: 380px) {

@@ -25,17 +25,25 @@ export default defineComponent({
 a {
   text-decoration: none;
   color: #fff;
+  font-weight: 700;
+  font-family: "baloo 2", sans-serif;
 }
 
 @media screen and (max-width: 450px) {
   .logo {
     width: 150px;
   }
+  a{
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 380px) {
   .logo {
     width: 140px;
+  }
+  a{
+    font-size: 23px;
   }
 }
 

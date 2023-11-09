@@ -36,27 +36,36 @@ export default defineComponent({
 
 span {
   font-size: 19px;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: "baloo 2", sans-serif;
   display: block;
   width: 100%;
   text-align: center;
+  color: #fff;
 }
 
 h2 {
   color: #fff;
+  font-weight: 700;
+  font-family: "baloo 2", sans-serif;
 }
 @media screen and (max-width: 450px) {
   .board {
     width: 105px;
   }
   span {
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 380px) {
   .board {
     width: 95px;
+  }
+  span {
+    font-size: 13px;
+    margin-top: 8px;
   }
 }
 
@@ -65,7 +74,8 @@ h2 {
     width: 90px;
   }
   span {
-    font-size: 15px;
+    font-size: 11px;
+    margin-top: 6px;
   }
 }
 </style>

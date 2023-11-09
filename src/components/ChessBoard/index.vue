@@ -77,6 +77,7 @@ export default defineComponent({
   .chessboard {
     height: 480px;
     padding: 10px 0px;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 370px) {
