@@ -799,11 +799,6 @@ sourcemap-codec@^1.4.4:
   resolved "https://registry.npm.taobao.org/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz"
   integrity "sha1-6oBL2UhXQC5pktBaOO8a41qatMQ= sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA=="
 
-store@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/store/-/store-2.0.12.tgz#8c534e2a0b831f72b75fc5f1119857c44ef5d593"
-  integrity sha1-jFNOKguDH3K3X8XxEZhXxE711ZM=
-
 stores@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stores/-/stores-1.0.0.tgz#a84717202e7484eb24a364e179f3292583067b06"

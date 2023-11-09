@@ -25,7 +25,6 @@ export default defineComponent({
 .board {
   width: 120px;
   height: 100px;
-  padding: 10px;
   background-color: #bbada0;
   border-radius: 5px;
   display: flex;

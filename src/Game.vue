@@ -46,6 +46,8 @@ body {
 </style>
 
 <style scoped>
+
+
 .game-panel {
   width: 450px;
   height: 670px;
