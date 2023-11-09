@@ -29,7 +29,7 @@ export default defineComponent({
 <style scoped>
 .status-footer {
   position: relative;
-  margin-top: 10px;
+  margin-top: 5px;
   width: 100%;
   height: 20px;
   line-height: 20px;
