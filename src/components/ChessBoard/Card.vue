@@ -1,14 +1,14 @@
 <template>
   <div class="container" @click="doFlip">
     <div class="card" :class="{ flipped: card.flipped }">
-      <img v-if="card.name === '8-ball'" class="front" src="../../assets/8-ball.png" />
-      <img v-if="card.name === 'baked-potato'" class="front" src="../../assets/baked-potato.png" />
-      <img v-if="card.name === 'dinosaur'" class="front" src="../../assets/dinosaur.png" />
-      <img v-if="card.name === 'kronos'" class="front" src="../../assets/kronos.png" />
-      <img v-if="card.name === 'rocket'" class="front" src="../../assets/rocket.png" />
-      <img v-if="card.name === 'skinny-unicorn'" class="front" src="../../assets/skinny-unicorn.png" />
-      <img v-if="card.name === 'that-guy'" class="front" src="../../assets/that-guy.png" />
-      <img v-if="card.name === 'zeppelin'" class="front" src="../../assets/zeppelin.png" />
+      <img v-if="card.name === 'bootstrap'" class="front" src="../../assets/Bootstrap.png" />
+      <img v-if="card.name === 'figma'" class="front" src="../../assets/Figma.png" />
+      <img v-if="card.name === 'git'" class="front" src="../../assets/GIT.png" />
+      <img v-if="card.name === 'github'" class="front" src="../../assets/Github.png" />
+      <img v-if="card.name === 'h5'" class="front" src="../../assets/H5.png" />
+      <img v-if="card.name === 'js'" class="front" src="../../assets/JS.png" />
+      <img v-if="card.name === 'node'" class="front" src="../../assets/Node.png" />
+      <img v-if="card.name === 'ts'" class="front" src="../../assets/TS.png" />
 
       <img class="back" src="../../assets/back.png" />
     </div>
